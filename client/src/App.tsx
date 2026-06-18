@@ -1,23 +1,23 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "../pages/HomePage";
-import HeadphonesPage from "../pages/HeadphonesPage";
-import SpeakerPage from "../pages/SpeakerPage";
-import EarphonesPage from "../pages/EarphonePage";
-import ProductDetailsPage from "../pages/ProductDetailsPage";
-import CheckoutPage from "../pages/CheckoutPage";
-import TermsAndConditionPage from "../pages/TermsAndConditonsPage";
-import ProfilePage from "../pages/ProfilePage";
-import OrderHistoryPage from "../pages/OrderHistoryPage";
-import LoginPage from "../pages/LoginPage";
-import RegisterPage from "../pages/RegisterPage";
-import AdminDashboard from "../pages/admin/AdminDashboard";
-import AdminProducts from "../pages/admin/AdminProducts";
-import AdminOrders from "../pages/admin/AdminOrders";
-import AdminUsers from "../pages/admin/AdminUsers";
-import RootLayout from "../layout/RootLayout";
-import AdminRoute from "../components/AdminRoute";
-import AdminLayout from "../pages/admin/AdminLayout";
+import HomePage from "./pages/HomePage";
+import HeadphonesPage from "./pages/HeadphonesPage";
+import SpeakerPage from "./pages/SpeakerPage";
+import EarphonesPage from "./pages/EarphonePage";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import TermsAndConditionPage from "./pages/TermsAndConditonsPage";
+import ProfilePage from "./pages/ProfilePage";
+import OrderHistoryPage from "./pages/OrderHistoryPage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+import AdminDashboard from "./pages/admin/AdminDashBoard";
+import AdminProducts from "./pages/admin/AdminProducts";
+import AdminOrders from "./pages/admin/AdminOrders";
+import AdminUsers from "./pages/admin/AdminUsers";
+import RootLayout from "./layout/RootLayout";
+import AdminRoute from "./components/AdminRoute";
+import AdminLayout from "./pages/admin/AdminLayout";
 
 function App() {
   return (
