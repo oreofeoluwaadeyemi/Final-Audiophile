@@ -16,11 +16,14 @@ import productRoutes from "./routes/productRoutes";
 import orderRoutes from "./routes/orderRoutes";
 import { errorHandler } from "./middleware/errorMiddleware";
 import { timeStamp } from "node:console";
+import dns from "dns"
 
 // load enviroment variables from .env file
 //  Must be called BEFORE any code that uses process.env
 
 dotenv.config();
+
+dns.setServers(["8.8.8.8", "8.8.4.4"])
 
 const app = express();
 
