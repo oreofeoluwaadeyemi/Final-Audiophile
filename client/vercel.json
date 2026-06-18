@@ -8,7 +8,7 @@
 
     "headers": [
         {
-            "source": "/assests/(.*)",
+            "source": "/assets/(.*)",
             "headers": [
                 {
                     "key": "Cache-Control",
